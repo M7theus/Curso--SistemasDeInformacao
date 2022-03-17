@@ -1,2 +1,2 @@
-# Curso--SistemasDeInformacao
+# Faculdade--SistemasDeInformacao
  Divulgação dos meus exercícios passados durante o período do curso

@@ -8,67 +8,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pessoa física</title>
+    <title>Dados</title>
 </head>
-
-<body>
-    <p style=font-size:50px> Pessoal física: </p>
+<body style="background-color: rgb(218, 235, 250);">
+    <p style="font-size:50px" > Pessoa física: </p>
     <hr>
     <form>
         <div>
-            <label for="fname"> <b> Nome: </b></label>
+            <label for="fname" style="font-size: 20px;"> <b> Nome: </b></label>
             <input type="text" id="fname" name="fname" placeholder="Digite seu nome" required>
         </div>
         <br>
         <div>
-            <label for="fname"> Sobrenome: </label>
+            <label for="fname" style="font-size: 20px;"> <b>Sobrenome:</b> </label>
+            <input type="text" id="fname" name="fname" placeholder="Digite seu sobrenome" required>
+        </div>
+        <br>
+        <div>
+            <label for="pass" style="font-size: 20px;"> <b>CPF:</b> </label>
+            <input type="pass" id="pass" name="pass" maxlength="11" placeholder="Digite seu CPF" required>
+        </div>
+        <br>
+        <div>
+            <label for="pass" style="font-size: 20px;"> <b>RG:</b></label>
+            <input type="pass" id="pass" name="pass" maxlength="7" placeholder="Digite seu RG" required>
+        </div>
+        <br>
+        <div>
+            <label for="fname" style="font-size: 20px;"> <b>CEP:</b> </label>
             <input type="text" id="fname" name="fname" placeholder="Digite seu nome" required>
         </div>
         <br>
         <div>
-            <label for="fname"> CPF: </label>
+            <label for="fname" style="font-size: 20px;"><b>Endereço:</b></label>
             <input type="text" id="fname" name="fname" placeholder="Digite seu nome" required>
         </div>
         <br>
         <div>
-            <label for="fname"> RG: </label>
-            <input type="text" id="fname" name="fname" placeholder="Digite seu nome" required>
+           <label for="pass" style="font-size: 20px;"><b>Senha:</b></label>
+           <input type="password" id="pass" name="pass" maxlength="12" placeholder="Digite sua senha" required> 
         </div>
         <br>
         <div>
-            <label for="fname"> CEP: </label>
-            <input type="text" id="fname" name="fname" placeholder="Digite seu nome" required>
+            <label for="email" style="font-size: 20px;"><b>E-mail:</b></label>
+            <input type="email" id="email" name="email" placeholder="Exemplo@gmail.com" required>
         </div>
         <br>
         <div>
-            <label for="fname"> Endereço: </label>
-            <input type="text" id="fname" name="fname" placeholder="Digite seu nome" required>
+            <label for="phone" style="font-size: 20px;"><b>Celular:</b></label>
+            <input type="tel" id="phone" name="phone" placeholder="(00)00000-0000" required>
         </div>
         <br>
         <div>
-           <label for="pass">Senha:</label>
-           <input type="password" id="pass" name="pass" maxlength="12" required> 
-        </div>
-        <div>
-            <label for="email">email:</label>
-            <input type="email" id="email" name="email" placeholder="Exemplo@gmail.com">
-        </div>
-        <div>
-            <label for="phone">Celular:</label>
-            <input type="tel" id="phone" name="phone" placeholder="(00)00000-0000">
+            <label for="bdate" style="font-size: 20px;"><b>Data de aniversário:</b></label>
+            <input type="date" id="bdate" name="bdate" required>
         </div>
         <br>
         <div>
-            <label for="bdate">Aniversário:</label>
-            <input type="date" id="bdate" name="bdate">
+            <input style="font-size: 20px; " type="button" value="Enviar" onclick="msg()" >
         </div>
-        <div>
-            <input type="Enviar">
-            <input type="Limpar">
-        </div>
+            <script>
+            function msg() {
+            alert("Enviado com Sucesso");
+            }
+
+            </script>
     </form>
-
-
 
 </body>
 </html>

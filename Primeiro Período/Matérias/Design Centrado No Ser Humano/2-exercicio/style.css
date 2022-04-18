@@ -1,0 +1,87 @@
+body{
+position: absolute;
+width: 1000px;
+height: 940px;
+left: 0px;
+top: 0px;
+
+background: #BDB6B6;
+}
+
+main{
+    
+}
+
+div#parte1{
+text-align: center;
+position: absolute;
+width: 949px;
+height: 661px;
+left: 150px;
+top: 171px;
+
+background: #FFFFFF;
+box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 26px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 65em;
+}
+
+
+div#parte2{
+position: absolute;
+width: 289px;
+height: 661px;
+left: 150px;
+top: 171px;
+
+background: #579AFF;
+border-radius: 26px 0px 0px 26px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+p#conta{
+position: absolute;
+width: 393px;
+height: 70px;
+left: 590px;
+top: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #579AFF;
+
+}
+
+p#mensagem{
+position: relative;
+width: 159px;
+height: 550px;
+left: 65px;
+top: 285px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 36px;
+
+display: block;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}

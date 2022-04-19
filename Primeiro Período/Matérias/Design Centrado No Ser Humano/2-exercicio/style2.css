@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    background: #BDB6B6;
+}
+
+div#bemvindo{
+    position: absolute;
+    width: 289px;
+    height: 601px;
+    left: 17px;
+    top: 171px;
+    
+    background: #579AFF;
+    border-radius: 26px 1px 1px 26px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#principal{
+    position: absolute;
+    width: 900px;
+    height: 661px;
+    left: 100px;
+    top: 171px;
+    
+    background: #FFFFFF;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    text-align: center;
+}
+

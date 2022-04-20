@@ -71,6 +71,34 @@ div#bemvindo{
 }
 
 #seta{
-    display: block;
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    left: 518px;
+    top: 761px;
+    background: #ffffff;
+    border-radius: 74px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
 }
 
+#fisica{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    position: absolute;
+    width: 229px;
+    height: 44px;
+    left: 655px;
+    top: 174px;
+    font-weight: bold;
+    color: rgb(10, 150, 175);
+    font-size: 40px;
+    display: block;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: #0000006b;
+
+}

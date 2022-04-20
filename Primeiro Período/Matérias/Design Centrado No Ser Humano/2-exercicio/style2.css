@@ -6,23 +6,33 @@ body{
 
 div#bemvindo{
     position: absolute;
-    width: 311px;
-    height: 662px;
-    left: 170px;
+    width: 289px;
+    height: 661px;
+    left: 150px;
     top: 171px;
+    
     background: #579AFF;
-    border-radius: 26px 1px 1px 26px;
+    border-radius: 26px 0px 0px 26px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #corpo{
+    text-align: center;
     position: absolute;
-    width: 912px;
-    height: 662px;
-    left: 171px;
+    width: 949px;
+    height: 661px;
+    left: 150px;
     top: 171px;
+    
     background: #FFFFFF;
-    box-shadow: 5px 4px 10px rgb(0 0 0 / 25%);
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 26px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65em;
 }
 
 #bem{
@@ -101,4 +111,28 @@ div#bemvindo{
     border-style: dashed;
     border-color: #0000006b;
 
+}
+
+#parte1{
+    position: absolute;
+    width: 255px;
+    height: 44px;
+    left: 497px;
+    top: 399px;
+    display: block;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#parte2{
+    position: absolute;
+    width: 327px;
+    height: 100px;
+    left: 808px;
+    top: 399px;
+    display: block;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
 }

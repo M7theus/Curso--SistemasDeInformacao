@@ -6,28 +6,71 @@ body{
 
 div#bemvindo{
     position: absolute;
-    width: 289px;
-    height: 601px;
-    left: 17px;
+    width: 311px;
+    height: 662px;
+    left: 170px;
     top: 171px;
-    
     background: #579AFF;
     border-radius: 26px 1px 1px 26px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-div#principal{
+#corpo{
     position: absolute;
-    width: 900px;
-    height: 661px;
-    left: 100px;
+    width: 912px;
+    height: 662px;
+    left: 171px;
     top: 171px;
-    
     background: #FFFFFF;
-    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 4px 10px rgb(0 0 0 / 25%);
     border-radius: 26px;
-    text-align: center;
+}
+
+#bem{
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    position: absolute;
+    width: 200px;
+    height: 202px;
+    left: 225px;
+    top: 404px;
+    font-weight: bold;
+    color: white;
+}
+
+#campo{
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    position: absolute;
+    width: 314px;
+    height: 258px;
+    left: 172px;
+    top: 482px;
+    font-weight: bold;
+    color: white; 
+}
+
+#botao{
+
+    position: absolute;
+    width: 208px;
+    height: 50px;
+    left: 748px;
+    top: 742px;
+    background: #579affd2;
+    border-radius: 74px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
+#botao:hover{
+    color: rgba(16, 4, 83, 0.411);
+}
+
+#seta{
+    display: block;
 }
 

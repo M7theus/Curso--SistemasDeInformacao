@@ -14,8 +14,7 @@ div#bemvindo{
     background: #579AFF;
     border-radius: 26px 0px 0px 26px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 20px auto
 }
 
 #corpo{
@@ -30,8 +29,7 @@ div#bemvindo{
     box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 26px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 20px auto;
     width: 65em;
 }
 
@@ -135,4 +133,56 @@ div#bemvindo{
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
+}
+
+#parte3{
+
+    position: absolute;
+    width: 327px;
+    height: 100px;
+    left: 513px;
+    top: 461px;
+    display: block;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+#parte4{
+    position: absolute;
+    width: 327px;
+    height: 100px;
+    left: 887px;
+    top: 457px;
+    display: block;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#parte5{
+    position: absolute;
+    width: 327px;
+    height: 100px;
+    left: 463px;
+    top: 517px;
+    display: block;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+#parte6{
+    position: absolute;
+    width: 327px;
+    height: 100px;
+    left: 835px;
+    top: 519px;
+    display: block;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+
 }
